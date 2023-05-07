@@ -1,0 +1,6 @@
+
+---
+ - name: fire below command
+   hosts: all
+   tasks:
+   - command: uname -r
