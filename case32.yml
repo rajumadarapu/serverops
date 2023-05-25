@@ -1,0 +1,6 @@
+---
+ - name=all
+   hosts=all
+   tasks
+     - name install package
+       yum: name=httpd stat=present
